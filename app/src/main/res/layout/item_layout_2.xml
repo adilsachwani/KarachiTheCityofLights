@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/list_item_color">
+
+    <ImageView
+        android:id="@+id/musicans_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/musicians_atif_aslam"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/musicans_image"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/musicans_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atif Aslam"
+            android:textStyle="bold"
+            android:textColor="@color/text_main_color"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/musicans_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pehli Nazar Mein"
+            android:textColor="@color/text_main_color"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/arrow" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</RelativeLayout>

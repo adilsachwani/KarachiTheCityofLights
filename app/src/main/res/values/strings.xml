@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Karachi - The City of Lights</string>
+    <string name="karachi">KARACHI</string>
+    <string name="the_city_of_lights">The City Of Lights</string>
+    <string name="adilsachwani">\@adilsachwani</string>
+    <string name="tabs_places">Places</string>
+    <string name="tabs_restraunts">Restraunts</string>
+    <string name="tabs_events">Events</string>
+    <string name="tabs_musicians">Musicians</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
